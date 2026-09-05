@@ -984,7 +984,7 @@
     ;
     YouTubePlayer = C_$hudson$workspace$Mobirise5_ewin_Release$Release$release$win_ia32_unpacked$resources$_app_asar$web$app$themes$mobirise5$plugins$ytplayer$index$classdecl$var0;
 
-
+// MODALES Y EMAIL JS --- POR FRAN
 
 const modalMail = document.getElementById('ModalMail');  
 modalMail.addEventListener('shown.bs.modal', function () {
@@ -1058,6 +1058,38 @@ console.log("ERROR COMPLETO:");
 });
 
 const formAutos = document.getElementById("FormAutos");     //EmailJS para cotizaciones de autos
+const formViaje = document.getElementById("FormCotizaciones");            //EmailJS cotizaciones viajes
+
+formViaje.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    console.log("Formulario de autos enviado");
+
+    emailjs.sendForm(
+        "service_s00yw3n",
+        "template_4yns8s4",
+        formViaje
+    )
+    .then(function() {
+
+        alert("¡Mensaje enviado correctamente!");
+
+        formViaje.reset();
+    
+
+    })
+    .catch(function(error) {
+console.log("ERROR COMPLETO:");
+    console.log(error);
+    console.log("STATUS:", error.status);
+    console.log("TEXT:", error.text);
+
+    alert("Error al enviar, compruebe los datos ingresados y vuelva a intentarlo.");
+
+    });
+
+});
 formAutos.addEventListener("submit", function(event) {
 
     event.preventDefault();

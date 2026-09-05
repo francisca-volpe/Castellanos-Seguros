@@ -392,7 +392,12 @@ border: 1px solid rgb(103, 101, 101);
 
 
 
-@media (max-width: 500px) {             /* RESPONSIVE CELULAR --- -500 PX */
+@media (max-width: 500px) {     /* RESPONSIVE CELULAR --- -500 PX */
+
+  #btn-Denunciar {
+    display: none !important;
+
+  }
 
   .wpp_descarga_pagos {
     font-size: 16px !important;
