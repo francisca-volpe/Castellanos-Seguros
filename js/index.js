@@ -1005,8 +1005,8 @@ formulario.addEventListener("submit", function(event) {
     event.preventDefault();
 
     emailjs.sendForm(
-        "service_s00yw3n",
-        "template_c0koxyn",
+        "service_8bmupk9",
+        "template_xmj5r0f",
         formulario
     )
     .then(function() {
@@ -1034,8 +1034,8 @@ formularioCotizaciones.addEventListener("submit", function(event) {
     event.preventDefault();
 
     emailjs.sendForm(
-        "service_s00yw3n",
-        "template_c0koxyn",
+        "service_8bmupk9",
+        "template_xmj5r0f",
         formularioCotizaciones
     )
     .then(function() {
@@ -1067,8 +1067,8 @@ formViaje.addEventListener("submit", function(event) {
     console.log("Formulario de autos enviado");
 
     emailjs.sendForm(
-        "service_s00yw3n",
-        "template_4yns8s4",
+        "service_8bmupk9",
+        "template_r60qqzl",
         formViaje
     )
     .then(function() {
@@ -1097,8 +1097,8 @@ formAutos.addEventListener("submit", function(event) {
     console.log("Formulario de autos enviado");
 
     emailjs.sendForm(
-        "service_s00yw3n",
-        "template_4yns8s4",
+        "service_8bmupk9",
+        "template_r60qqzl",
         formAutos
     )
     .then(function() {
