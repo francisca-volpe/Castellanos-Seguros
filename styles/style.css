@@ -437,3 +437,7 @@ border: 1px solid rgb(103, 101, 101);
 
 }
 
+#wppFooter {
+  color: white !important;
+  text-decoration: underline !important;
+}
