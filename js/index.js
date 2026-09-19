@@ -1034,7 +1034,7 @@ formularioCotizaciones.addEventListener("submit", function(event) {
     event.preventDefault();
 
     emailjs.sendForm(
-        "service_8bmupk9",
+        "service_8bmupk9", 
         "template_xmj5r0f",
         formularioCotizaciones
     )
