@@ -997,7 +997,7 @@ modalAutos.addEventListener('shown.bs.modal', function () {
 
 
 emailjs.init({                                  //EmailJS 
-    publicKey: "AGCKXBD2TtA2rGOuq"
+    publicKey: "A39PrPVnp0BCFiDAFa"
 });
 const formulario = document.getElementById("FormMail");   //EmailJS para consultas por mail
 formulario.addEventListener("submit", function(event) {
